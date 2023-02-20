@@ -28,8 +28,6 @@ export default function Home({ data }) {
 
   const addStyleToString = (item) => {
     if (typeof item === "string" || item instanceof String) {
-      return "uppercase font-bold";
-    } else {
       return "font-normal";
     }
   };
@@ -171,7 +169,7 @@ export default function Home({ data }) {
       </div>
     </section>
   ) : (
-    <section className="grid place-content-center">
+    <section className="grid place-content-center h-screen w-screen">
       <div className="text-center">
         <h1 className="font-bold text-4xl uppercase">{data.error.title}</h1>
         <p className="pt-6">{data.error.msg}</p>

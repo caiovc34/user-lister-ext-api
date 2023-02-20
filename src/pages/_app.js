@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
     title: "user list",
     text: "Select a user to see extra info.",
     headerStyle:
-      "sticky top-0 font-normal bg-gray-200 py-2 px-4 border border-gray-300 border-b-gray-500",
+      "sticky top-0 font-bold uppercase bg-gray-200 py-2 px-4 border border-gray-300 border-b-gray-500 z-20",
     headerLabels: [
       "id",
       "name",
